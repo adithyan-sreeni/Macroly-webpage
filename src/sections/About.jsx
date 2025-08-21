@@ -88,8 +88,8 @@ const About = () => {
           start: "top top",
           end: "bottom bottom",
           pin: pinRef.current,
-          pinSpacing: true,
-          pinType: "transform",
+          pinSpacing: false,
+          pinType: "fixed",
           id: "pin-animation",
         });
       }
@@ -112,7 +112,7 @@ const About = () => {
     <div>
       <section
         ref={sectionRef}
-        className="px-4 bg-black min-h-[150vh] md:h-[200vh] flex items-start pt-0"
+        className="px-4 bg-black h-[200vh] flex items-start pt-0"
       >
         <div className="max-w-7xl mx-auto w-full pt-30" ref={pinRef}>
           {/* Title */}
