@@ -42,6 +42,11 @@ export default function Contact() {
             Have questions about Macroly? We'd love to hear from you. Send us a
             message and we'll respond as soon as possible.
           </p>
+          <div className="mt-4 p-4 bg-blue-50 rounded-lg max-w-lg mx-auto">
+            <p className="text-sm text-blue-700">
+              <strong>Student Developer Project:</strong> This app is developed by an individual student as a learning project.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -51,11 +56,16 @@ export default function Contact() {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">
                 Contact Information
               </h2>
-              <p className="text-gray-600 mb-8">
-                We're here to help you make the most of your holistic health
-                journey with Macroly's conversational approach to wellness
-                tracking.
+              <p className="text-gray-600 mb-4">
+                We're here to help you make the most of your nutrition tracking
+                journey with Macroly's AI-powered approach to wellness tracking.
               </p>
+              <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded">
+                <p className="text-amber-700 text-sm">
+                  <strong>Note:</strong> Response times may vary as this is a student-developed project. 
+                  We appreciate your patience and will respond as soon as possible.
+                </p>
+              </div>
             </div>
 
             <div className="space-y-6">
@@ -65,7 +75,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-800">Email</h3>
-                  <p className="text-gray-600">support@macroly.com</p>
+                  <p className="text-gray-600">adithyansreeni8@gmail.com</p>
+                  <p className="text-sm text-gray-500">Primary contact for all inquiries</p>
                 </div>
               </div>
 
@@ -75,7 +86,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-800">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+91 9656298751</p>
+                  <p className="text-sm text-gray-500">Available during reasonable hours (IST)</p>
                 </div>
               </div>
 
@@ -86,10 +98,22 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-gray-800">Address</h3>
                   <p className="text-gray-600">
-                    123 Health Tech Ave
+                    College of Engineering Chengannur
                     <br />
-                    San Francisco, CA 94105
+                    Alappuzha, Kerala, India
                   </p>
+                  <p className="text-sm text-gray-500">Student developer location</p>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
+                  <span className="text-orange-600 text-lg font-bold">👨‍🎓</span>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-800">Developer</h3>
+                  <p className="text-gray-600">Adithyan Valayil Sreeni</p>
+                  <p className="text-sm text-gray-500">Student Developer, Kerala, India</p>
                 </div>
               </div>
             </div>
@@ -97,12 +121,27 @@ export default function Contact() {
             {/* Response Time */}
             <div className="bg-gradient-to-r from-purple-100 to-pink-100 p-6 rounded-lg">
               <h3 className="font-semibold text-gray-800 mb-2">
-                Response Time
+                Response Time & Support
               </h3>
-              <p className="text-gray-600">
-                We typically respond to all inquiries within 24 hours during
-                business days.
-              </p>
+              <div className="space-y-2 text-gray-600 text-sm">
+                <p>• <strong>Email responses:</strong> Within 24-48 hours (typically faster)</p>
+                <p>• <strong>Technical support:</strong> May take longer for complex issues</p>
+                <p>• <strong>Student project notice:</strong> Response times may vary during exam periods</p>
+                <p>• <strong>Best contact method:</strong> Email for detailed inquiries</p>
+              </div>
+            </div>
+
+            {/* Additional Info */}
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="font-semibold text-gray-800 mb-2">
+                About This Project
+              </h3>
+              <div className="space-y-2 text-gray-600 text-sm">
+                <p>• Developed by an individual student as a learning project</p>
+                <p>• AI-powered nutrition tracking using Google Gemini AI</p>
+                <p>• Currently free to use with all core features available</p>
+                <p>• Privacy-focused with secure data handling practices</p>
+              </div>
             </div>
           </div>
 

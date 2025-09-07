@@ -9,6 +9,7 @@ import {
 
 import React, { useRef, useState } from "react";
 import AppDownloadModal from "./AppDownloadModal";
+import newIcon from "../assets/newicon.png";
 
 // Main Navbar Component with all logic included
 const MainNavbar = () => {
@@ -272,8 +273,12 @@ const NavbarLogo = () => {
       href="/"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
-      <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
-        <span className="text-white font-bold text-lg">M</span>
+      <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden">
+        <img 
+          src={newIcon} 
+          alt="Macroly Logo" 
+          className="w-full h-full object-contain"
+        />
       </div>
       <span className="font-bold text-xl text-black dark:text-white">
         Macroly
