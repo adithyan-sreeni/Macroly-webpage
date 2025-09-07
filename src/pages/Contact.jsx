@@ -23,10 +23,28 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log("Form submitted:", formData);
-    // You can add actual form submission logic here
-    alert("Thank you for your message! We'll get back to you soon.");
+    
+    // Create mailto link with form data
+    const subject = encodeURIComponent(formData.subject || "Contact from Macroly Website");
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Subject: ${formData.subject}\n\n` +
+      `Message:\n${formData.message}\n\n` +
+      `---\n` +
+      `Sent from Macroly Contact Form\n` +
+      `Date: ${new Date().toLocaleString()}`
+    );
+    
+    const mailtoLink = `mailto:adithyansreeni8@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open email client
+    window.open(mailtoLink, '_self');
+    
+    // Show success message
+    alert("Your default email client will open with the message pre-filled. Please send the email to complete your inquiry.");
+    
+    // Reset form
     setFormData({ name: "", email: "", subject: "", message: "" });
   };
 
@@ -147,9 +165,12 @@ export default function Contact() {
 
           {/* Contact Form */}
           <div className="bg-white p-8 rounded-2xl shadow-xl">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">
+            <h2 className="text-2xl font-bold text-gray-800 mb-2">
               Send us a Message
             </h2>
+            <p className="text-gray-600 text-sm mb-6">
+              Fill out the form below and your email client will open with the message pre-filled. Just click send!
+            </p>
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -199,16 +220,23 @@ export default function Contact() {
                 >
                   Subject *
                 </label>
-                <input
-                  type="text"
+                <select
                   id="subject"
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-colors"
-                  placeholder="What's this about?"
-                />
+                >
+                  <option value="">Select a subject...</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                  <option value="Technical Support">Technical Support</option>
+                  <option value="Feature Request">Feature Request</option>
+                  <option value="Bug Report">Bug Report</option>
+                  <option value="Privacy/Data Question">Privacy/Data Question</option>
+                  <option value="Collaboration">Collaboration Opportunity</option>
+                  <option value="Other">Other</option>
+                </select>
               </div>
 
               <div>
@@ -226,15 +254,30 @@ export default function Contact() {
                   required
                   rows="6"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-colors resize-none"
-                  placeholder="Tell us how we can help you..."
+                  placeholder="Please provide as much detail as possible to help us assist you better..."
                 ></textarea>
+              </div>
+
+              <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0">
+                    <svg className="h-5 w-5 text-blue-400 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div className="ml-3">
+                    <p className="text-sm text-blue-700">
+                      <strong>How it works:</strong> When you click "Send Message", your default email client (Gmail, Outlook, etc.) will open with your message pre-filled. Simply click send in your email client to deliver the message.
+                    </p>
+                  </div>
+                </div>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold py-3 px-6 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-colors duration-200 flex items-center justify-center space-x-2"
+                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold py-3 px-6 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-colors duration-200 flex items-center justify-center space-x-2 group"
               >
-                <FaPaperPlane />
+                <FaPaperPlane className="group-hover:translate-x-1 transition-transform duration-200" />
                 <span>Send Message</span>
               </button>
             </form>
