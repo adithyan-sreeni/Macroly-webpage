@@ -11,6 +11,7 @@ import LandingPage from "./pages/LandingPage";
 import Contact from "./pages/Contact";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import AccountDeletion from "./pages/AccountDeletion";
 
 function App() {
   useEffect(() => {
@@ -62,6 +63,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms" element={<TermsAndConditions />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/delete-account" element={<AccountDeletion />} />
         </Routes>
         <Footer />
       </Router>

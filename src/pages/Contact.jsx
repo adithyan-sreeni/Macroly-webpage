@@ -36,7 +36,7 @@ export default function Contact() {
       `Date: ${new Date().toLocaleString()}`
     );
     
-    const mailtoLink = `mailto:adithyansreeni8@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:macrolyapp@gmail.com?subject=${subject}&body=${body}`;
     
     // Open email client
     window.open(mailtoLink, '_self');
@@ -82,7 +82,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-800">Email</h3>
-                  <p className="text-gray-600">adithyansreeni8@gmail.com</p>
+                  <p className="text-gray-600">macrolyapp@gmail.com</p>
                   <p className="text-sm text-gray-500">Primary contact for all inquiries</p>
                 </div>
               </div>

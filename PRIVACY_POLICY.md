@@ -10,7 +10,7 @@ We are committed to protecting your privacy and being transparent about our data
 
 ### Developer Information
 - **Developer:** Adithyan Valayil Sreeni
-- **Email:** adithyansreeni8@gmail.com
+- **Email:** macrolyapp@gmail.com
 - **Phone:** +91 9656298751
 - **Location:** Kerala, India
 
@@ -407,7 +407,7 @@ For users under 13 years old:
 ### 13.1 Privacy Questions
 
 **Primary Contact:**
-- **Email:** adithyansreeni8@gmail.com
+- **Email:** macrolyapp@gmail.com
 - **Developer:** Adithyan Valayil Sreeni
 - **Phone:** +91 9656298751
 - **Location:** Kerala, India
@@ -445,4 +445,4 @@ This Privacy Policy is governed by:
 
 **Thank you for trusting Macroly with your personal information. We are committed to protecting your privacy while providing you with the best possible nutrition tracking experience.**
 
-**For any privacy-related questions or concerns, please don't hesitate to contact us at adithyansreeni8@gmail.com**
+**For any privacy-related questions or concerns, please don't hesitate to contact us at macrolyapp@gmail.com**

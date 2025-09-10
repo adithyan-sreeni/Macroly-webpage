@@ -27,7 +27,7 @@ export default function TermsAndConditions() {
               <h3 className="font-semibold text-gray-800 mb-2">Developer Information:</h3>
               <ul className="text-gray-700 space-y-1">
                 <li><strong>Developer:</strong> Adithyan Valayil Sreeni</li>
-                <li><strong>Email:</strong> adithyansreeni8@gmail.com</li>
+                <li><strong>Email:</strong> macrolyapp@gmail.com</li>
                 <li><strong>Phone:</strong> +91 9656298751</li>
                 <li><strong>Location:</strong> Kerala, India</li>
               </ul>
@@ -450,7 +450,7 @@ export default function TermsAndConditions() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <p className="text-gray-700"><strong>Developer:</strong> Adithyan Valayil Sreeni</p>
-                  <p className="text-gray-700"><strong>Email:</strong> adithyansreeni8@gmail.com</p>
+                  <p className="text-gray-700"><strong>Email:</strong> macrolyapp@gmail.com</p>
                   <p className="text-gray-700"><strong>Phone:</strong> +91 9656298751</p>
                   <p className="text-gray-700"><strong>Location:</strong> Kerala, India</p>
                 </div>

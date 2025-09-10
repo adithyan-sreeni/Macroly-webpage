@@ -10,7 +10,7 @@ By downloading, installing, accessing, or using Macroly, you agree to be bound b
 
 ### Developer Information
 - **Developer:** Adithyan Valayil Sreeni
-- **Email:** adithyansreeni8@gmail.com
+- **Email:** macrolyapp@gmail.com
 - **Phone:** +91 9656298751
 - **Location:** Kerala, India
 
@@ -281,7 +281,7 @@ You agree to indemnify and hold harmless the Developer from any claims, damages,
 
 ### Developer Contact:
 - **Name:** Adithyan Valayil Sreeni
-- **Email:** adithyansreeni8@gmail.com
+- **Email:** macrolyapp@gmail.com
 - **Phone:** +91 9656298751
 - **Location:** Kerala, India
 
