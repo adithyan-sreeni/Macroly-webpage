@@ -30,7 +30,6 @@ export default function TermsAndConditions() {
                 <li><strong>Email:</strong> adithyansreeni8@gmail.com</li>
                 <li><strong>Phone:</strong> +91 9656298751</li>
                 <li><strong>Location:</strong> Kerala, India</li>
-                <li><strong>Student Developer:</strong> This app is developed by an individual student developer</li>
               </ul>
             </div>
           </section>
@@ -43,9 +42,9 @@ export default function TermsAndConditions() {
               By creating an account, accessing, or using Macroly, you confirm that:
             </p>
             <ul className="list-disc list-inside text-gray-600 space-y-2">
-              <li>You are at least 13 years of age</li>
+              <li>You are at least 3 years of age (or have parental/guardian supervision)</li>
               <li>You have read, understood, and agree to be bound by these Terms</li>
-              <li>You have the legal capacity to enter into this agreement</li>
+              <li>You have the legal capacity to enter into this agreement (or parental consent)</li>
               <li>All information you provide is accurate and complete</li>
             </ul>
           </section>
@@ -393,18 +392,31 @@ export default function TermsAndConditions() {
               <div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">Age Requirements:</h3>
                 <ul className="list-disc list-inside text-gray-600 space-y-2 ml-4">
-                  <li>App intended for users 13 years and older</li>
-                  <li>Users under 13 should not create accounts</li>
+                  <li>App intended for users 3 years and older</li>
+                  <li>Users under 13 require parental/guardian supervision</li>
                   <li>Parents/guardians responsible for monitoring minor's use</li>
+                  <li>App rated 3+ by international rating authorities (ESRB, PEGI, USK, IARC)</li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">Parental Consent:</h3>
                 <ul className="list-disc list-inside text-gray-600 space-y-2 ml-4">
-                  <li>Users under 18 should have parental permission</li>
+                  <li>Users under 18 should have parental permission for account creation</li>
                   <li>Parents may request account deletion for minors</li>
-                  <li>We do not knowingly collect data from children under 13</li>
+                  <li>Adult supervision recommended for children under 13</li>
+                  <li>Parents responsible for ensuring appropriate use</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">Global Age Ratings:</h3>
+                <ul className="list-disc list-inside text-gray-600 space-y-2 ml-4">
+                  <li><strong>ESRB (North America):</strong> Everyone (E)</li>
+                  <li><strong>PEGI (Europe):</strong> PEGI 3</li>
+                  <li><strong>USK (Germany):</strong> All ages</li>
+                  <li><strong>ClassInd (Brazil):</strong> All ages</li>
+                  <li><strong>IARC Generic:</strong> Rated for 3+</li>
                 </ul>
               </div>
             </div>
@@ -445,7 +457,7 @@ export default function TermsAndConditions() {
                 <div>
                   <p className="text-gray-700"><strong>Support:</strong> Contact via email for questions</p>
                   <p className="text-gray-700"><strong>Technical Support:</strong> Use in-app support features</p>
-                  <p className="text-gray-700"><strong>Response Time:</strong> May vary as this is a student-developed project</p>
+                  <p className="text-gray-700"><strong>Response Time:</strong> Typically within 24-48 hours</p>
                 </div>
               </div>
             </div>
@@ -475,17 +487,6 @@ export default function TermsAndConditions() {
               </div>
             </div>
           </section>
-
-          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mt-8">
-            <div className="flex">
-              <div className="ml-3">
-                <p className="text-sm text-blue-700">
-                  <strong>Student Developer Notice:</strong> This application is developed by an individual student as a learning project. 
-                  While we strive to provide a quality service, please understand the limitations of a student-developed application and use accordingly.
-                </p>
-              </div>
-            </div>
-          </div>
 
           <div className="text-center mt-8 pt-8 border-t border-gray-200">
             <p className="text-gray-600">

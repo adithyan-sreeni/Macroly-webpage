@@ -13,14 +13,13 @@ By downloading, installing, accessing, or using Macroly, you agree to be bound b
 - **Email:** adithyansreeni8@gmail.com
 - **Phone:** +91 9656298751
 - **Location:** Kerala, India
-- **Student Developer:** This app is developed by an individual student developer
 
 ## 2. Acceptance of Terms
 
 By creating an account, accessing, or using Macroly, you confirm that:
-- You are at least 13 years of age
+- You are at least 3 years of age (or have parental/guardian supervision)
 - You have read, understood, and agree to be bound by these Terms
-- You have the legal capacity to enter into this agreement
+- You have the legal capacity to enter into this agreement (or parental consent)
 - All information you provide is accurate and complete
 
 ## 3. Description of Service
@@ -248,14 +247,23 @@ You agree to indemnify and hold harmless the Developer from any claims, damages,
 ## 17. Children's Privacy
 
 ### Age Requirements:
-- App intended for users 13 years and older
-- Users under 13 should not create accounts
-- Parents/guardians responsible for monitoring minor's use
+- App intended for users 3 years and older
+- Users under 13 require parental/guardian supervision
+- App rated 3+ by international rating authorities (ESRB, PEGI, USK, IARC)
 
 ### Parental Consent:
-- Users under 18 should have parental permission
-- Parents may request account deletion for minors
-- We do not knowingly collect data from children under 13
+- Users under 18 should have parental permission for account creation
+- Parents can request account deletion for minors
+- Adult supervision recommended for children under 13
+- Parents responsible for ensuring appropriate use
+
+### Global Age Ratings:
+- **ESRB (North America):** Everyone (E)
+- **PEGI (Europe):** PEGI 3
+- **USK (Germany):** All ages
+- **ClassInd (Brazil):** All ages
+- **IARC Generic:** Rated for 3+
+- **Google Play (Global):** Rated for 3+
 
 ## 18. Third-Party Services
 
@@ -280,7 +288,7 @@ You agree to indemnify and hold harmless the Developer from any claims, damages,
 ### Support:
 - For questions about these Terms, contact us via email
 - For technical support, use in-app support features
-- Response time may vary as this is a student-developed project
+- Response time is typically within 24-48 hours
 
 ## 20. Governing Law and Dispute Resolution
 
@@ -329,8 +337,6 @@ You agree to indemnify and hold harmless the Developer from any claims, damages,
 - Date of last update shown at the top of these Terms
 
 ---
-
-**Student Developer Notice:** This application is developed by an individual student as a learning project. While we strive to provide a quality service, please understand the limitations of a student-developed application and use accordingly.
 
 **Effective Date:** These Terms are effective as of September 7, 2025.
 

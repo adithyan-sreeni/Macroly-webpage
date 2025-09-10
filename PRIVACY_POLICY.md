@@ -13,7 +13,6 @@ We are committed to protecting your privacy and being transparent about our data
 - **Email:** adithyansreeni8@gmail.com
 - **Phone:** +91 9656298751
 - **Location:** Kerala, India
-- **Student Developer:** This app is developed by an individual student developer
 
 ## 2. Information We Collect
 
@@ -274,22 +273,33 @@ In the event of a data breach:
 ### 8.1 Age Requirements
 
 **Minimum Age:**
-- App intended for users 13 years and older
-- Users under 13 should not create accounts
-- We do not knowingly collect data from children under 13
+- App intended for users 3 years and older
+- Users under 13 require parental/guardian supervision
+- App rated 3+ by international rating authorities
 
 **Parental Controls:**
-- Users under 18 should have parental permission
+- Users under 18 should have parental permission for account creation
 - Parents can request account deletion for minors
-- Parents can contact us about their child's data
+- Adult supervision recommended for children under 13
+- Special data protection measures for users under 13
+
+**Global Age Ratings:**
+- **ESRB (North America):** Everyone (E)
+- **PEGI (Europe):** PEGI 3
+- **USK (Germany):** All ages
+- **ClassInd (Brazil):** All ages
+- **IARC Generic:** Rated for 3+
+- **Google Play (Global):** Rated for 3+
 
 ### 8.2 Children's Data Protection
 
-If we discover we have collected data from a child under 13:
-- We will delete the data immediately
-- We will not use the data for any purpose
-- We will not share the data with third parties
-- Parents will be notified if contact information is available
+For users under 13 years old:
+- Parental/guardian consent required for data collection
+- Enhanced security measures for children's data
+- Limited data collection practices
+- Parents can request access, correction, or deletion of their child's data
+- We do not share children's data with third parties without parental consent
+- Parents will be notified of any data incidents involving their child
 
 ## 9. International Data Transfers
 
@@ -392,27 +402,9 @@ If we discover we have collected data from a child under 13:
 - Review update notes when updating the app
 - Contact us with questions about changes
 
-## 13. Student Developer Notice
+## 13. Contact Information
 
-### 13.1 Development Context
-
-**Important Information:**
-- This app is developed by an individual student as a learning project
-- Privacy practices follow industry standards but may have limitations
-- Support and response times may vary
-- Data handling capabilities are subject to student developer resources
-
-### 13.2 Best Efforts Commitment
-
-**Our Commitment:**
-- Implement industry-standard privacy practices
-- Protect user data to the best of our ability
-- Respond to privacy concerns promptly
-- Continuously improve privacy measures
-
-## 14. Contact Information
-
-### 14.1 Privacy Questions
+### 13.1 Privacy Questions
 
 **Primary Contact:**
 - **Email:** adithyansreeni8@gmail.com
@@ -420,7 +412,7 @@ If we discover we have collected data from a child under 13:
 - **Phone:** +91 9656298751
 - **Location:** Kerala, India
 
-### 14.2 Data Protection Requests
+### 13.2 Data Protection Requests
 
 **How to Contact Us:**
 - Email us for data access, correction, or deletion requests
@@ -434,15 +426,14 @@ If we discover we have collected data from a child under 13:
 - Explain any delays or limitations
 - Provide alternative solutions when possible
 
-## 15. Governing Law
+## 14. Governing Law
 
 This Privacy Policy is governed by:
 - **Primary Jurisdiction:** Laws of India, particularly Kerala state
 - **International Compliance:** GDPR for EU users, CCPA where applicable
-- **Student Developer Considerations:** Reasonable compliance within student capabilities
 - **Dispute Resolution:** Through Indian legal system and direct communication
 
-## 16. Effective Date and Validity
+## 15. Effective Date and Validity
 
 **Effective Date:** This Privacy Policy is effective as of September 7, 2025.
 

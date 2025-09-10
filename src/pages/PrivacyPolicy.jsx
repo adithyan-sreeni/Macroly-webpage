@@ -30,7 +30,6 @@ export default function PrivacyPolicy() {
                 <li><strong>Email:</strong> adithyansreeni8@gmail.com</li>
                 <li><strong>Phone:</strong> +91 9656298751</li>
                 <li><strong>Location:</strong> Kerala, India</li>
-                <li><strong>Student Developer:</strong> This app is developed by an individual student developer</li>
               </ul>
             </div>
           </section>
@@ -248,19 +247,43 @@ export default function PrivacyPolicy() {
               <div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">Age Requirements:</h3>
                 <ul className="list-disc list-inside text-gray-600 space-y-2 ml-4">
-                  <li>App intended for users 13 years and older</li>
-                  <li>Users under 13 should not create accounts</li>
-                  <li>Users under 18 should have parental permission</li>
-                  <li>We do not knowingly collect data from children under 13</li>
+                  <li>App intended for users 3 years and older</li>
+                  <li>Users under 13 require parental/guardian supervision</li>
+                  <li>Parents/guardians responsible for monitoring minor's use</li>
+                  <li>App rated 3+ by international rating authorities</li>
                 </ul>
               </div>
 
-              <div className="bg-orange-50 border-l-4 border-orange-400 p-4">
-                <p className="text-orange-700">
-                  If we discover we have collected data from a child under 13, we will delete the data immediately 
-                  and notify parents if contact information is available.
-                </p>
+              <div>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">Parental Controls & Data Protection:</h3>
+                <ul className="list-disc list-inside text-gray-600 space-y-2 ml-4">
+                  <li>Users under 18 should have parental permission for account creation</li>
+                  <li>Parents can request account deletion for minors</li>
+                  <li>Adult supervision recommended for children under 13</li>
+                  <li>Special data protection measures for users under 13</li>
+                </ul>
               </div>
+
+              <div className="bg-green-50 border-l-4 border-green-400 p-4">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">Global Age Ratings:</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-green-700 text-sm">
+                  <p>• <strong>ESRB (North America):</strong> Everyone (E)</p>
+                  <p>• <strong>PEGI (Europe):</strong> PEGI 3</p>
+                  <p>• <strong>USK (Germany):</strong> All ages</p>
+                  <p>• <strong>ClassInd (Brazil):</strong> All ages</p>
+                  <p>• <strong>IARC Generic:</strong> Rated for 3+</p>
+                  <p>• <strong>Google Play (Global):</strong> Rated for 3+</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-orange-50 border-l-4 border-orange-400 p-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Data Collection for Children Under 13:</h3>
+              <p className="text-orange-700 text-sm">
+                While the app is rated 3+, we implement special protections for children under 13. 
+                We collect minimal data for this age group and require parental supervision for account creation and app usage.
+                All data collection for children under 13 complies with COPPA requirements.
+              </p>
             </div>
           </section>
 
@@ -367,7 +390,7 @@ export default function PrivacyPolicy() {
                 <div>
                   <p className="text-gray-700"><strong>Data Protection Requests:</strong> Include your phone number and specify request type</p>
                   <p className="text-gray-700"><strong>Response Time:</strong> Acknowledgment within 48 hours, response within 30 days</p>
-                  <p className="text-gray-700"><strong>Support:</strong> May vary as this is a student-developed project</p>
+                  <p className="text-gray-700"><strong>Support:</strong> Email support available for all inquiries</p>
                 </div>
               </div>
             </div>
@@ -383,23 +406,11 @@ export default function PrivacyPolicy() {
                 <ul className="list-disc list-inside text-gray-600 space-y-2 ml-4">
                   <li>This Privacy Policy is governed by the laws of India, particularly Kerala state</li>
                   <li>International compliance: GDPR for EU users, CCPA where applicable</li>
-                  <li>Reasonable compliance within student developer capabilities</li>
+                  <li>Full compliance with applicable data protection regulations</li>
                 </ul>
               </div>
             </div>
           </section>
-
-          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mt-8">
-            <div className="flex">
-              <div className="ml-3">
-                <p className="text-sm text-blue-700">
-                  <strong>Student Developer Notice:</strong> This application is developed by an individual student as a learning project. 
-                  Privacy practices follow industry standards but may have limitations. We are committed to protecting your data 
-                  to the best of our ability and continuously improving our privacy measures.
-                </p>
-              </div>
-            </div>
-          </div>
 
           <div className="text-center mt-8 pt-8 border-t border-gray-200">
             <p className="text-gray-600">
